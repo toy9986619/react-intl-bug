@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "jsx": "react",
+    "module": "commonjs",
+    "paths": {
+      "PUBLIC/*": [
+        "./public/*"
+      ],
+      "SRC/*": [
+        "./src/*"
+      ],
+      "SRC_UTILS/*": [
+        "./src/utils/*"
+      ],
+      "MODULES/*": [
+        "./src/modules/*"
+      ],
+      "INTL/*": [
+        "./src/shared/intl/descriptors/*"
+      ],
+      "STORE/*": [
+        "./src/store/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*",
+    ".git",
+    "dist",
+    "**/dist/*",
+    "build",
+  ]
+}

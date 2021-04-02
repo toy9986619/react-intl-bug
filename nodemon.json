@@ -1,0 +1,11 @@
+{
+  "watch": [
+    "gulpfile.js",
+    "nodemon.json",
+    "package.json",
+    "config/**/*",
+    "dist/server/**/*.js"
+  ],
+  "ext": "js, json",
+  "verbose": true
+}
